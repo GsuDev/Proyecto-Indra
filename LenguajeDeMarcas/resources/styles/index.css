@@ -81,15 +81,18 @@ button:hover {
 }
 
 main {
+    display: flex;
     max-width: 1280px;
     margin: 0 auto;
     padding: 2em 0;
+    gap: 2em;
 }
 
 section {
     display: flex;
-    justify-content: space-between;
-    gap: 7em;
-    margin-bottom: 4em;
+    flex-direction: column;
+    gap: 2em;
+
+
 }
 

@@ -1,0 +1,43 @@
+.event-list {
+	position: absolute;
+	top: 10vh;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 800px;
+	
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+.event:last-child {
+	border-bottom: none;
+}
+
+.event-name {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.event-date {
+	color: #888;
+	margin: 5px 0;
+}
+
+.event-description {
+	margin: 5px 0 0;
+}
+
+h2 {
+	cursor: pointer;
+	transition: color 0.3s;
+}
+h2:hover {
+	color: var(--main-color);
+}
