@@ -1,14 +1,14 @@
 package ecoEvent
 
 class Evento(
-            private var nombre: String
-            private var fecha: String
-            private var hora: String
-            private var duracion: Int
-            private var ubicacion: Ubicacion
-            private var modalidad: String
-            private var organizador: Organizador
-            private var categoria: Categoria
+            private var nombre: String,
+            private var fecha: String,
+            private var hora: String,
+            private var duracion: Int,
+            private var ubicacion: Ubicacion,
+            private var modalidad: String,
+            private var organizador: Organizador,
+            private var categoria: Categoria,
             private var tipo: String
 ) {
     private var estado: Boolean = true
