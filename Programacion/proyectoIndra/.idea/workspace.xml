@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f51199-7d1d-46a3-a89e-f6f7dafb8765" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/proyectoIndra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Categoria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Categoria.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Evento.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Evento.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Inscripcion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Inscripcion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Organizador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Organizador.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Ubicacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Ubicacion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ecoEvent/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ecoEvent/Usuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -37,13 +37,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "Programacion",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jesus/Documents/GitHub/Proyecto-Indra/Programacion/proyectoIndra",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
