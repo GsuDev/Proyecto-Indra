@@ -1,0 +1,5 @@
+package ecoEvent
+
+class Evento() {
+    
+}

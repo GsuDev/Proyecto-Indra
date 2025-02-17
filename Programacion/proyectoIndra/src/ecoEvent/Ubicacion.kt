@@ -1,0 +1,4 @@
+package ecoEvent
+
+class Ubicacion {
+}
