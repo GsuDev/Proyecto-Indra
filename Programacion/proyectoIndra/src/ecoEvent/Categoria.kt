@@ -5,6 +5,7 @@ class Categoria() {
     companion object {
         var cont = 1
     }
+
     private var id: Int = cont++
     private var nombre: String = ""
     private var descripcion: String = ""

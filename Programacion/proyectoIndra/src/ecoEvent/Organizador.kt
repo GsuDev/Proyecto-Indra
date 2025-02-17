@@ -1,12 +1,14 @@
 package ecoEvent
 
-class Organizador() {
+class Organizador(
+    private var razonSocial: String
+    private var tlf: Int?
+) {
     companion object {
         var cont = 1
     }
     private var id: Int = cont++
-    private var razonSocial: String = ""
-    private var tlf: Int? = null
+
 
     // Getters
     fun getId(): Int {

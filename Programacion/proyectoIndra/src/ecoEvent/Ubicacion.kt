@@ -1,18 +1,20 @@
 package ecoEvent
 
-class Ubicacion() {
+class Ubicacion(
+    private var pais: String?
+    private var ciudad: String?
+    private var localidad: String?
+    private var cp: Int?
+    private var calle: String?
+    private var numero: Int?
+    private var letra: String?
+) {
 
     companion object {
         var cont = 1
     }
     private var id: Int = cont++
-    private var pais: String? = null
-    private var ciudad: String? = null
-    private var localidad: String? = null
-    private var cp: Int? = null
-    private var calle: String? = null
-    private var numero: Int? = null
-    private var letra: String? = null
+
 
     // Getters
     fun getId(): Int {

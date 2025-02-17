@@ -1,18 +1,18 @@
 package ecoEvent
 
 class Inscripcion() {
+    private var usuario: Usuario
+    private var evento: Evento
+    private var fechaInscripcion: String
 
-    private var idUsuario: Int = 0
-    private var idEvento: Int = 0
-    private var fechaInscripcion: String = ""
 
     // Getters
     fun getIdUsuario(): Int {
-        return idUsuario
+        return Usuario
     }
 
     fun getIdEvento(): Int {
-        return idEvento
+        return Evento
     }
 
     fun getFechaInscripcion(): String {
@@ -21,15 +21,30 @@ class Inscripcion() {
 
     // Setters
     fun setIdUsuario(idUsuario: Int) {
-        this.idUsuario = idUsuario
+        this.Usuario = Usuario
     }
 
     fun setIdEvento(idEvento: Int) {
-        this.idEvento = idEvento
+        this.Evento = Evento
     }
 
     fun setFechaInscripcion(fechaInscripcion: String) {
         this.fechaInscripcion = fechaInscripcion
+    }
+
+    fun hacer() {
+        println("Escriba el nombre del usuario: ")
+        val nombre = readLine()
+        println("Escriba el apellido del usuario: ")
+        val ap1 = readLine()
+        println("Escriba el segundo apellido del usuario: ")
+        val ap2 = readLine()
+        println("Escriba el correo del usuario: ")
+        val correo = readLine()
+        println("Escriba la contraseña del usuario: ")
+        val contrasena = readLine()
+        println("Escriba el teléfono del usuario: ")
+        val tlf = readLine()
     }
 }
 

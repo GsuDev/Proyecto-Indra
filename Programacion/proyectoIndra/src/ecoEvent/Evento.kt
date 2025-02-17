@@ -1,20 +1,22 @@
 package ecoEvent
 
-class Evento() {
+class Evento(
+            private var nombre: String
+            private var fecha: String
+            private var hora: String
+            private var duracion: Int
+            private var ubicacion: Ubicacion
+            private var modalidad: String
+            private var organizador: Organizador
+            private var categoria: Categoria
+            private var tipo: String
+) {
+    private var estado: Boolean = true
     companion object {
         var cont = 1
     }
     private var id: Int = cont++
-    private var nombre: String = ""
-    private var fecha: String = ""
-    private var hora: String = ""
-    private var duracion: Int = 0
-    private var ubicacion: Ubicacion = Ubicacion()
-    private var estado: Boolean = true
-    private var modalidad: String = ""
-    private var organizador: Organizador = Organizador()
-    private var categoria: Categoria = Categoria()
-    private var tipo: String = "C"
+
 
     // Getters
     fun getId(): Int {
@@ -82,7 +84,8 @@ class Evento() {
         this.duracion = duracion
     }
     // TODO Asignar Ubicacion
-    fun setUbicacion(ubicacion: String) {
+    fun setUbicacion(ubicacion: Ubicacion) {
+        this.ubicacion = Ubicacion()
     }
 
     fun setEstado(estado: Boolean) {
@@ -94,9 +97,11 @@ class Evento() {
     }
     // TODO Asignar Organizador
     fun setOrganizador(organizador: String) {
+        this.organizador = Organizador()
     }
     // TODO Asignar Categoria
     fun setCategoria(categoria: String) {
+        this.categoria = Categoria()
     }
 
     fun setTipo(tipo: String) {
