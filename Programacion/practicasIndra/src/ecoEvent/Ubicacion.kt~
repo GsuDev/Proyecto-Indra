@@ -1,12 +1,12 @@
 package ecoEvent
 
 class Ubicacion(
-    private var pais: String?,
-    private var ciudad: String?,
-    private var localidad: String?,
-    private var cp: Int?,
-    private var calle: String?,
-    private var numero: Int?,
+    private var pais: String?
+    private var ciudad: String?
+    private var localidad: String?
+    private var cp: Int?
+    private var calle: String?
+    private var numero: Int?
     private var letra: String?
 ) {
 

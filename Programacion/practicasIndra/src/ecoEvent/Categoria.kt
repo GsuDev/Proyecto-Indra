@@ -1,14 +1,16 @@
 package ecoEvent
 
-class Categoria() {
+class Categoria(
+    private var nombre: String,
+    private var descripcion: String
+) {
 
     companion object {
         var cont = 1
     }
 
     private var id: Int = cont++
-    private var nombre: String = ""
-    private var descripcion: String = ""
+
 
     // Getters
     fun getId(): Int {

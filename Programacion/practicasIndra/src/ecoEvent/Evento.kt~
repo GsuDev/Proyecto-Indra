@@ -107,6 +107,8 @@ class Evento(
     fun setTipo(tipo: String) {
         this.tipo = tipo
     }
+
+    fun crearEvento() {
 }
 
 

@@ -1,7 +1,7 @@
 package ecoEvent
 
 class Organizador(
-    private var razonSocial: String
+    private var razonSocial: String,
     private var tlf: Int?
 ) {
     companion object {

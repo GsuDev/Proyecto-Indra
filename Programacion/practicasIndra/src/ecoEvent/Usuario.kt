@@ -2,11 +2,11 @@ package ecoEvent
 
 
 class Usuario(
-    private var nombre: String
-    private var ap1: String
-    private var ap2: String?
-    private var correo: String
-    private var contrasena: String
+    private var nombre: String,
+    private var ap1: String,
+    private var ap2: String?,
+    private var correo: String,
+    private var contrasena: String,
     private var tlf: Int
 ) {
 
