@@ -1,15 +1,13 @@
 package ecoEvent
-
 class Evento(
-            private var nombre: String,
-            private var fecha: String,
-            private var hora: String,
-            private var duracion: Int,
-            private var ubicacion: Ubicacion,
-            private var modalidad: String,
-            private var organizador: Organizador,
-            private var categoria: Categoria,
-            private var tipo: String
+    private var nombre: String,
+    private var fecha: String,
+    private var hora: String,
+    private var duracion: Int,
+    private var ubicacion: Ubicacion,
+    private var isOnline: Boolean,
+    private var organizador: Organizador,
+    private var categoria: String,
 ) {
     private var estado: Boolean = true
     companion object {
@@ -48,21 +46,18 @@ class Evento(
         return estado
     }
 
-    fun getModalidad(): String {
-        return modalidad
+    fun getIsOnline(): Boolean {
+        return isOnline
     }
 
     fun getOrganizador(): Organizador {
         return organizador
     }
 
-    fun getCategoria(): Categoria {
+    fun getCategoria(): String {
         return categoria
     }
 
-    fun getTipo(): String {
-        return tipo
-    }
 
     // Setters
     fun setId(id: Int) {
@@ -91,22 +86,32 @@ class Evento(
 
     fun setEstado(estado: Boolean) {
         this.estado = estado
+
     }
 
-    fun setModalidad(modalidad: String) {
-        this.modalidad = modalidad
+    fun setIsOnline(modalidad: Boolean) {
+        this.isOnline = modalidad
     }
 
     fun setOrganizador(organizador: Organizador) {
         this.organizador = organizador
     }
-    fun setCategoria(categoria: Categoria) {
+
+    fun setCategoria(categoria: String) {
         this.categoria = categoria
     }
 
-    fun setTipo(tipo: String) {
-        this.tipo = tipo
+    fun resumen() {
+        println("Id: $id")
+        println("Nombre: $nombre")
+        println("Fecha: $fecha")
+        println("Hora: $hora")
+        println("Duracion: $duracion")
+        println("Ubicacion: $ubicacion")
+        println("Estado: $estado")
+        println("Online: $isOnline")
+        println("Organizador: $organizador")
+        println("Categoria: $categoria")
     }
+
 }
-
-

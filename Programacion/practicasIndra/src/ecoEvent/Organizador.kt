@@ -1,8 +1,7 @@
 package ecoEvent
-
 class Organizador(
-    private var razonSocial: String,
-    private var tlf: Int?
+    private var nombre: String,
+    private var tlf: Int
 ) {
     companion object {
         var cont = 1
@@ -15,11 +14,11 @@ class Organizador(
         return id
     }
 
-    fun getRazonSocial(): String {
-        return razonSocial
+    fun getNombre(): String {
+        return nombre
     }
 
-    fun getTlf(): Int? {
+    fun getTlf(): Int {
         return tlf
     }
 
@@ -28,12 +27,16 @@ class Organizador(
         this.id = id
     }
 
-    fun setRazonSocial(razonSocial: String) {
-        this.razonSocial = razonSocial
+    fun setNombre(razonSocial: String) {
+        this.nombre = razonSocial
     }
 
-    fun setTlf(tlf: Int?) {
+    fun setTlf(tlf: Int) {
         this.tlf = tlf
     }
+    fun resumen() {
+        println("Id: $id")
+        println("Nombre: $nombre")
+        println("Telefono: $tlf")
+    }
 }
-

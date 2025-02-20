@@ -4,67 +4,45 @@
 
 ### Evento
 
-- Crear
-- Modificar
-- Borrar
-- Listar
-- Asignar Organizador
-- Asignar Categoría
-- Añadir telefono
+- Crear desde un organizador
+- Modificar, setter de los atributos de evento
+- Info evento
+- Modificar Organizador
+- Modificar Categoría
+- Modificar telefono
+
+### Gestion 
+
+- Listar todos los eventos
+- Filtrar por categoria
+- Guardar usuarios
+- Guardar organizadores
+- Guardar ubicaciones
+- Lista de los usuarios
+- Metodo de iniciar sesion
+- Borrar usuarios
+- Crear evento
+- Borrar evento, de un organizador
+- Listar eventos de un organizador
+- Lista de las ubicaciones
+- Listar eventos de un usuario
 
 ### Usuario
 
-- Crear
-- Modificar
-- Borrar
-- Listar
-- Listar eventos asignados
-- Iniciar sesión
-- Cerrar sesión
+- Crear (constructor)
+- Modificar, setters
+- Telefono
 
 ### Organizador
 
-- Crear
-- Modificar
-- Borrar
-- Listar
-- listar eventos asignados
-- Añadir telefono
+- Setters y getters
+- Telefono
 
-### Categoría
-
-- Crear
-- Modificar
-- Borrar
-- Listar
-- Listar eventos por categoría
-
-### Inscripcion
-
-- Crear
-- Modificar
-- Borrar
-- Listar
-- Asignar evento
-- Asignar usuario
 
 ### Ubicacion
 
-- Crear
-- Modificar
-- Borrar
-- Listar
-- Listar eventos por ubicación
+- Setter y getters
 
-### Telefono
 
-- Crear
-- Modificar
-- Borrar
 
-### Sesión
-
-- Iniciar
-- Cerrar
-- Listar
 

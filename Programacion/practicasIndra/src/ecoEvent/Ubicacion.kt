@@ -1,13 +1,12 @@
 package ecoEvent
-
 class Ubicacion(
-    private var pais: String?,
-    private var ciudad: String?,
-    private var localidad: String?,
-    private var cp: Int?,
-    private var calle: String?,
-    private var numero: Int?,
-    private var letra: String?
+    private var pais: String,
+    private var ciudad: String,
+    private var localidad: String,
+    private var cp: Int,
+    private var calle: String,
+    private var numero: Int,
+    private var letra: String
 ) {
 
     companion object {
@@ -21,31 +20,31 @@ class Ubicacion(
         return id
     }
 
-    fun getPais(): String? {
+    fun getPais(): String {
         return pais
     }
 
-    fun getCiudad(): String? {
+    fun getCiudad(): String {
         return ciudad
     }
 
-    fun getLocalidad(): String? {
+    fun getLocalidad(): String {
         return localidad
     }
 
-    fun getCp(): Int? {
+    fun getCp(): Int {
         return cp
     }
 
-    fun getCalle(): String? {
+    fun getCalle(): String {
         return calle
     }
 
-    fun getNumero(): Int? {
+    fun getNumero(): Int {
         return numero
     }
 
-    fun getLetra(): String? {
+    fun getLetra(): String {
         return letra
     }
 
@@ -54,32 +53,42 @@ class Ubicacion(
         this.id = id
     }
 
-    fun setPais(pais: String?) {
+    fun setPais(pais: String) {
         this.pais = pais
     }
 
-    fun setCiudad(ciudad: String?) {
+    fun setCiudad(ciudad: String) {
         this.ciudad = ciudad
     }
 
-    fun setLocalidad(localidad: String?) {
+    fun setLocalidad(localidad: String) {
         this.localidad = localidad
     }
 
-    fun setCp(cp: Int?) {
+    fun setCp(cp: Int) {
         this.cp = cp
     }
 
-    fun setCalle(calle: String?) {
+    fun setCalle(calle: String) {
         this.calle = calle
     }
 
-    fun setNumero(numero: Int?) {
+    fun setNumero(numero: Int) {
         this.numero = numero
     }
 
-    fun setLetra(letra: String?) {
+    fun setLetra(letra: String) {
         this.letra = letra
     }
-}
 
+    fun resumen(){
+        println("ID: $id")
+        println("Pais: $pais")
+        println("Ciudad: $ciudad")
+        println("Localidad: $localidad")
+        println("Cp: $cp")
+        println("Calle: $calle")
+        println("Numero: $numero")
+        println("Letra: $letra")
+    }
+}
