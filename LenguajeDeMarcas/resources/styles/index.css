@@ -1,12 +1,16 @@
+/* Fuente del proyecto */
 @font-face {
     font-family: 'Bricolage';
     src: url('../media/fonts/BricolageGrotesque.ttf') format('truetype');
 }
+
+/* Variables para los colores del diseño */
 :root {
     --main-color: #2ecc71;
     --secondary-color: #000;
 }
 
+/* Reset basico */
 * {
     margin: 0;
     padding: 0;
@@ -16,13 +20,15 @@
     list-style: none;
 }
 
+/* Estilos del body */
 body {
     min-height: 100vh;
     overflow-x: hidden;
 }
 
+/* Estilos de la barra superior */
 nav {
-    position: fixed;
+    position: fixed; 
     width: 100%;
     height: 10vh;
     background-color: #fff;
@@ -35,6 +41,8 @@ nav {
     width: 15em;
     margin-left: 5em;
 }
+
+/* Estilos del menú de navegación */
 .menu {
     z-index: 1000;
     display: flex;
@@ -42,16 +50,21 @@ nav {
     gap: 15em;
     margin-right: 7em;
 }
+
+/* Estilos de los enlaces del menú */
 .menu a {
     color: #000;
     font-size: 1.5em;
     font-weight: 500;
     transition: color 0.3s;
 }
+
+/* Efecto hover de los enlaces del menú */
 .menu a:hover {
     color: var(--main-color);
 }
 
+/* Estilos del carrusel */
 .carousel {
     max-width: 1280px;
     margin: 0 auto;
@@ -59,12 +72,15 @@ nav {
     overflow-y: hidden;
 }
 
+/* Estilos de las imagenes del carrusel */
 #imagen {
     width: 100%;
     height: 720px;
     background-size: cover;
     overflow-y: hidden;
 }
+
+/* Estilos de los botones del carrusel */
 button {
     background-color: var(--main-color);
     color: #fff;
@@ -76,10 +92,12 @@ button {
     transition: background-color 0.3s;
 }
 
+/* Efecto hover de los botones del carrusel */
 button:hover {
     background-color: #27ae60;
 }
 
+/* Estilos del contenido principal */
 main {
     display: flex;
     max-width: 1280px;
@@ -88,6 +106,7 @@ main {
     gap: 2em;
 }
 
+/* Estilos de la sección de información */
 section {
     display: flex;
     flex-direction: column;
