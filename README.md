@@ -26,6 +26,11 @@ El proyecto se organiza en las siguientes carpetas, cada una correspondiente a u
 - Se ha realizado la configuración de un servidor con XAMPP para pruebas y desarrollo.
 - [🔗 Leer más](SistemasInformaticos)
 
+### 📁 Entornos
+- Incluye la captura final del sistema de ramas de este repositorio usada durante el desarrollo del proyecto.
+- Se ha utilizado una rama por asignatura y finalmente se han mergeado a la rama main.
+- [🔗 Leer más](Entornos)
+
 ## 📖 Documentación
 
 Además de los archivos específicos de cada asignatura, el repositorio contiene documentación adicional relevante para el desarrollo del proyecto:
