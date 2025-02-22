@@ -101,6 +101,7 @@ class Evento(
         this.categoria = categoria
     }
 
+    // Metodo para mostrar todos los atributos de evento
     fun resumen() {
         println("Id: $id")
         println("Nombre: $nombre")
@@ -108,11 +109,11 @@ class Evento(
         println("Hora: $hora")
         println("Duracion: $duracion Hrs")
         println("Ubicacion:")
-        ubicacion.resumen()
+        ubicacion.resumen() // Llamamos al metodo resumen de la clase ubicacion
         println("Estado: $estado")
         println("Online: $isOnline")
         println("Organizador: ")
-        organizador.resumen()
+        organizador.resumen() // Llamamos al metodo resumen de la clase organizador
         println("Categoria: $categoria")
     }
 

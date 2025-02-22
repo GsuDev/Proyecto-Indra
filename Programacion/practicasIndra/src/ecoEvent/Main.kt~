@@ -142,15 +142,12 @@ fun main() {
                         ecoEvent.desinscribirUsuario(usuario)
                     }
                     6 -> {
-                        // Submenú de opciones del usuario
                         println()
                         println("Que desea hacer?")
                         println("1. Cambiar contraseña")
                         println("2. Borrar usuario")
                         println("3. Salir")
-                        // Recogemos la respuesta del usuario
                         val respuestaOp = readln().toInt()
-                        // Según la respuesta hacemos la acción correspondiente
                         when (respuestaOp) {
                             1 -> {
                                 ecoEvent.cambiarContrasena()
