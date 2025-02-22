@@ -111,8 +111,7 @@ class Evento(
         ubicacion.resumen()
         println("Estado: $estado")
         println("Online: $isOnline")
-        println("Organizador: ")
-        organizador.resumen()
+        println("Organizador: ${organizador.resumen()}")
         println("Categoria: $categoria")
     }
 

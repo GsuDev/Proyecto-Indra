@@ -484,7 +484,7 @@ class Gestion {
         println("Dime el correo del nuevo usuario")
         val correo = readln()
 
-        if ((listaUsuarios.find { it.getCorreo() == correo }) != null) {
+        if ((listaUsuarios.find { it.getCorreo() == correo }) == null) {
             println("Ya existe un usuario con este correo")
             println("No se ha creado el usuario")
             return null

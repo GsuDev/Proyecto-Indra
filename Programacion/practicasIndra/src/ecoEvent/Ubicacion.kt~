@@ -89,6 +89,6 @@ class Ubicacion(
         println("Cp: $cp")
         println("Calle: $calle")
         println("Numero: $numero")
-        println("Letra: ${if (letra == "") "No tiene" else letra}")
+        println("Letra: $letra")
     }
 }
