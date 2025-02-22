@@ -9,22 +9,22 @@ El proyecto se organiza en las siguientes carpetas, cada una correspondiente a u
 ### 📁 Bases de Datos
 - Contiene los archivos relacionados con el diseño de la base de datos del proyecto.
 - Incluye el diagrama Entidad-Relación (E-R), esquemas relacionales y script SQL.
-- [🔗 Leer más](BasesDeDatos/readme.md)
+- [🔗 Leer más](BasesDeDatos)
 
 ### 📁 Lenguaje de Marcas
 - Contiene los archivos HTML y recursos utilizados para la parte de desarrollo web.
 - Se ha trabajado en páginas HTML sobre diferentes partes del proyecto.
-- [🔗 Leer más](LenguajeDeMarcas/readme.md)
+- [🔗 Leer más](LenguajeDeMarcas)
 
 ### 📁 Programación
 - Contiene el código fuente y los archivos del entorno de desarrollo utilizados en la implementación de la parte programada del proyecto.
 - Se ha trabajado en la estructura del proyecto utilizando clases y objetos.
-- [🔗 Leer más](Programacion/practicasIndra/README.md)
+- [🔗 Leer más](Programacion/practicasIndra)
 
 ### 📁 Sistemas Informáticos
 - Incluye documentación sobre la instalación y configuración del entorno de desarrollo, incluyendo Windows 10 y servidores web locales.
 - Se ha realizado la configuración de un servidor con XAMPP para pruebas y desarrollo.
-- [🔗 Leer más](SistemasInformaticos/readme.md)
+- [🔗 Leer más](SistemasInformaticos)
 
 ## 📖 Documentación
 
