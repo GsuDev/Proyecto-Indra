@@ -1,0 +1,33 @@
+/* 
+    Estilos para la página de un evento
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.event-details {
+    margin-top: 20px;
+}
+
+.event-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    margin: 5px 0;
+}

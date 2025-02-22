@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/styles/index.css">
+    <link rel="stylesheet" href="resources/styles/eventos.css">
+    <title>Eventos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- EcoEvent Logo (SVG con fondo transparente) -->
+            <svg class="logo" version="1.1" id="EcoEventLogo" xmlns="http://www.w3.org/2000/svg" width="300"
+                height="100" viewBox="0 0 300 100">
+                <title>EcoEvent Logo</title>
+                <style>
+                    .leaf {
+                        fill: #2ecc71;
+                        /* Color verde hoja */
+                    }
+
+                    .text {
+                        fill: #2c3e50;
+                        /* Color gris-azulado */
+                        font-family: Arial, sans-serif;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                </style>
+
+                <!-- Hoja (forma básica) -->
+                <path class="leaf" d="M50,10
+                       C70,10 90,30 50,90
+                       C10,30 30,10 50,10
+                       Z" />
+
+                <!-- Texto EcoEvent -->
+                <text class="text" x="100" y="60">EcoEvent</text>
+            </svg>
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="event-list">
+        <div class="event">
+            <h2 class="event-name" onclick="window.location.href='summit.html'">Summit 2022 ❯</h2>
+            <p class="event-date">Fecha: 01/06/2022</p>
+            <p class="event-description">La cumbre sobre movilidad sostenible y sus avances mas importante de españa.
+            </p>
+        </div>
+        <div class="event">
+            <h2 class="event-name" onclick="window.location.href='reciclaje.html'">Reciclaje y economía circular ❯</h2>
+            <p class="event-date">Fecha: 02/05/2021</p>
+            <p class="event-description">Enfocado en la reducción de la basura marina.</p>
+        </div>
+        <div class="event">
+            <h2 class="event-name" onclick="window.location.href='eficiencia.html'">Día mundial de la eficiencia
+                energética ❯</h2>
+            <p class="event-date">Fecha: 05/03/2024</p>
+            <p class="event-description">Un evento dedicado a promover el uso eficiente de la energía a nivel mundial.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
